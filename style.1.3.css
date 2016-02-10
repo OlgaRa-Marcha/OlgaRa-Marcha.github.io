@@ -1,0 +1,42 @@
+body{
+	background: #FFE4E1;
+	height: 900px;
+	border-bottom:5px solid black;
+
+
+}
+
+.card{
+	background: white;
+	width: 600px;
+	height: 800px;
+	margin-left: 600px;
+	padding: 20px;
+	border: 2px solid #D3D3D3;
+
+}
+
+
+h1{
+	text-align: center;
+}
+
+.jpg{
+	text-align: center;
+}
+
+.brd{
+	border-top: 2px solid gray;
+ 	border-left: none;
+	border-right: none; 
+}
+
+
+tr{
+	background: white;
+}
+
+.work{
+	text-align: center;
+	font-size: 20px;
+}
