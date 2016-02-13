@@ -2,9 +2,8 @@ body{
 	background: #FFE4E1;
 	height: 900px;
 	border-bottom:5px solid black;
-
-
 }
+
 
 .card{
 	background: white;
@@ -31,10 +30,6 @@ h1{
 	border-right: none; 
 }
 
-
-tr{
-	background: white;
-}
 
 .work{
 	text-align: center;
