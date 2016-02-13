@@ -9,7 +9,7 @@ body{
 	background: white;
 	width: 600px;
 	height: 800px;
-	margin-left: 600px;
+	margin: auto;
 	padding: 20px;
 	border: 2px solid #D3D3D3;
 
@@ -24,7 +24,7 @@ h1{
 	text-align: center;
 }
 
-.brd{
+hr{
 	border-top: 2px solid gray;
  	border-left: none;
 	border-right: none; 
