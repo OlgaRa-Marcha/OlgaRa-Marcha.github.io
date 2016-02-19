@@ -23,6 +23,22 @@ body{
 	float: right;
 	margin-right: 30px;
 	color: #4f89a4;
+	position: relative;
+}
+
+.contries{
+	float: right;
+    clear: right;
+    margin-top: 35px;
+}
+
+.photo {
+	display: block;
+	width: 70px;
+	float: right;
+	font-size: 10px;
+	color: #4f89a4;
+	position: relative; 
 }
 
 .logo{
@@ -31,14 +47,7 @@ body{
 }
 
 
-.photo {
-	display: block;
-	width: 70px;
-	float: right;
-	font-size: 10px;
-	color: #4f89a4;
-	margin-top: 
-}
+
 
 .clearfix:after {
 	content:'';
@@ -100,29 +109,59 @@ color: #FFFFFF;
 display: block; 
 } 
 
+.case{
+	position: relative;
+}
+
 
 .brd{
 	border-top: 2px solid #c6c9cd;
  	border-left: none;
 	border-right: none;}
 
-.crisper{
-	float: right;
-	width: 200px;
-	background: #ecedef;
-	border: 2px solid #c6c9cd;
-}
 
-.crisper2{
-	float: left;
-	width: 200px;
-	background: #ecedef;
-	border: 2px solid #c6c9cd;
-}
+
 
 .fon {
 
 	width: 1000px; /* ширина трех блоков */
+
 	background: url(../img/4.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
+
 	float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+
 	}
+
+	.leftColumn {
+
+	width: 20%;
+
+	float: left;
+	background: #ecedef;
+	border: 1px solid #c6c9cd;
+	
+
+	}
+
+	.centerColumn {
+
+	width: 60%;
+
+	float: left;
+
+	margin: 0 auto;
+
+
+	}
+
+	.rightColumn {
+
+	width: 20%;
+
+	float:right;
+	background: #ecedef;
+	border: 1px solid #c6c9cd;
+	padding-bottom: 32px;
+	}
+
+
