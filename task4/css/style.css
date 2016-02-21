@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+body{
+	background-image: url(../img/1.jpg);
+	height: 1000px;
+}
+
+.box{
+	background: #FFFFFF;
+	margin: auto;
+	height: 990px;
+	width: 1000px;
+	box-shadow: 0 0 2px 2px rgba(105, 105, 105, 1);
+
+}
+
+
+.contacts{
+	float: right;
+	margin-right: 30px;
+	color: #4f89a4;
+	position: relative;
+}
+
+.contries{
+	float: right;
+    clear: right;
+    margin-top: 35px;
+}
+
+.photo {
+	width: 70px;
+	float: right;
+	font-size: 10px;
+	color: #4f89a4;
+	position: relative; 
+	padding: auto 0;
+}
+
+.logo{
+     float: left;
+
+}
+
+.clearfix:after {
+	content:'';
+	clear: both;
+	display: block;
+}
+li{
+	list-style: none;
+	float: left;
+	display: block;
+	padding: 10px 30px;
+	background: #373737;
+
+}
+
+ul{
+	color: #FFFFFF;
+	list-style: none;
+	padding: auto;
+	margin: auto;
+	height: 100%;
+}
+
+	.menu{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-right: 4.5px;
+
+}
+
+.nav{
+list-style: none;
+}
+
+.nav li {
+cursor: pointer;
+background: #373737;
+padding: 10px 30px;
+}
+
+.nav li ul {
+display: none; 
+position: absolute; 
+left: 0;
+top: 20px; 
+margin: 0;
+width: 300px;
+background: #373737;
+}
+
+.nav li ul li a {
+float: none;
+display: block;
+background: #373737;
+color: #FFFFFF;
+}
+
+.nav li:hover ul {
+display: block; 
+} 
+
+
+.case{
+	position: relative;
+}
+
+
+hr{
+	border-top: 2px solid #c6c9cd;
+ 	border-left: none;
+	border-right: none;}
+
+
+
+
+.fon {
+
+	width: 998; /* ширина трех блоков */
+    background: url(../img/4.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
+    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+	border: 1px solid #c6c9cd;
+
+	}
+
+	.leftColumn {
+
+	width: 200px;
+
+	float: left;
+	background: #ecedef;
+	
+	
+
+	}
+
+	.centerColumn {
+
+	width: 600px;
+
+	float: left;
+
+
+	}
+
+	.rightColumn {
+
+	width: 200px;
+
+	float:right;
+	background: #ecedef;
+	height: auto;
+	}
+
+
+
+
