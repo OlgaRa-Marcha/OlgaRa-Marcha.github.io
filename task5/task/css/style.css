@@ -131,8 +131,7 @@ text-decoration: underline #ffffff;
 
 .information{
 
-	margin: auto 0;
-	margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 
@@ -149,7 +148,7 @@ text-decoration: underline #ffffff;
    }
 
 .text{
-	padding: 10px 90px;
+	padding: 10px 170px 10px 10px;
 	background: rgba( 0, 0, 0, 0.7);
 	color: #ffffff;
 	border: none;
@@ -180,3 +179,9 @@ text-decoration: underline #ffffff;
 }
 
 div{text-align:center}
+
+
+
+.emphasis{
+	text-decoration: underline;
+}
