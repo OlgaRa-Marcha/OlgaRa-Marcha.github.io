@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+body{
+	background-color: #ffffff;
+}
+
+.zazor{
+	margin: auto;
+	width: 908px;
+	padding: 17px 45px 0px 45px
+}
+
+ /*heder*/
+
+.navi{
+	float: right;
+}
+
+.avtoriz{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#206988+0,114165+64,0c3256+100 */
+background: rgb(32,105,136); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(32,105,136,1) 0%, rgba(17,65,101,1) 64%, rgba(12,50,86,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,105,136,1) 0%,rgba(17,65,101,1) 64%,rgba(12,50,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,105,136,1) 0%,rgba(17,65,101,1) 64%,rgba(12,50,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206988', endColorstr='#0c3256',GradientType=0 ); /* IE6-9 */
+    
+    padding: 5px 5px 0px 5px;
+    width: 495px;
+    height: 25px;
+	float: right;
+	font-size: 10px;
+	color: #fff;
+
+}
+
+.enrolment{
+	color: #fff;
+
+}
+
+.loaf{
+	float: right;
+}
+
+.check{
+	float: right;
+}
+
+.registry{
+	float: right;
+}
+
+
+.telephon{
+
+}
+
+.blick{
+	margin: auto;
+}
+
+
+ /*nav*/
+
+
+ .amount{
+ 	float: right;
+ }
+
+
+ .content {
+	background-color: white;
+	border-radius: 10px; 
+	float: left;
+	width: 528px;
+	height: 628px;
+}
+
+.gradient {
+    background: #94a7b0; /* Для старых браузров */
+    background: linear-gradient(to top, #94a7b0, #e4e7e8);
+   }
+   
+  .sign {float: left; /* Выравнивание по правому краю */
+   /* border: 2px solid #333; /* Параметры рамки */
+    padding: 10px 17px;                                  /* Поля внутри блока */
+    margin: 0px 0px 0px 0px;  /* Отступы вокруг */
+   background: transparent; /* Цвет фона */
+    text-align: center; /* Выравнивание по центру */
+   }
+  .main {
+	/*  background-color: #EE82EE;*/
+	  width: 526px;
+	  height: 628px;
+	  margin: 0 auto;
+  }
+  .whiteBlock {
+	  background-color: #ffffff;
+	   border-radius: 7px; /* Уголки */
+	   width: 139px;             /*размер белых квадратов*/
+	  height: 123px;
+	  border: 1px solid #b0b9bc;
+	  padding-top: 5px;
+  }
+
+
+  .Podpis1{
+  	 
+  	 color: #426986;
+  	 font-size:15px;
+  	 font-weight: 500;
+
+   
+
+  }
+
+  .price{
+
+  	 color: #2a4364;
+  	 font-size:16px;
+  	 font-weight: 600;
+
+  }
+   
+.fon {
+
+	width: 998; /* ширина трех блоков */
+    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+
+	}
+
+   	.leftColumn {
+
+	
+    float: left;
+    height: auto;
+    min-height: 300px;
+    margin: 0 0 30px 0;
+}
+
+
+.side-menu-title {
+    height: 25px;
+    width: 156px;
+    padding: 6px 0 0 30px;
+    color: #114165;
+    font: 12px/13px
+}
+
+.side-menu-item {
+    display: block;
+    width: 130px;
+    height: 14px;
+    padding: 1px 0 0 10px;
+    margin: 10px 0 0 30px;
+    color: #465961;
+    background: url(img/marker.png) no-repeat 0 4px;
+    font-weight: normal;
+    }
+
+
+	.centerColumn {
+
+
+	float: left;
+	margin: auto;
+
+
+	}
+
+	.rightColumn { 
+	float:right;
+	height: auto;
+
+	}
