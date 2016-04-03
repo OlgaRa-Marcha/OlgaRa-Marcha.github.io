@@ -1,3 +1,7 @@
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -15,63 +19,821 @@ body{
 	padding: 17px 45px 0px 45px
 }
 
- /*heder*/
 
-.navi{
-	float: right;
-}
 
-.avtoriz{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#206988+0,114165+64,0c3256+100 */
-background: rgb(32,105,136); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(32,105,136,1) 0%, rgba(17,65,101,1) 64%, rgba(12,50,86,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(32,105,136,1) 0%,rgba(17,65,101,1) 64%,rgba(12,50,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(32,105,136,1) 0%,rgba(17,65,101,1) 64%,rgba(12,50,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206988', endColorstr='#0c3256',GradientType=0 ); /* IE6-9 */
-    
-    padding: 5px 5px 0px 5px;
-    width: 495px;
-    height: 25px;
-	float: right;
-	font-size: 10px;
-	color: #fff;
 
-}
 
-.enrolment{
-	color: #fff;
-
-}
-
-.loaf{
-	float: right;
-}
-
-.check{
-	float: right;
-}
-
-.registry{
-	float: right;
+ header {
+	position: relative;
+	background: #fff; /*#FFE4E1;*/
+	width: 909px;
+	height: 500px;
+	margin: 0 auto;
 }
 
 
 .telephon{
-
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	
 }
 
-.blick{
-	margin: auto;
+
+
+.avtoriz{                        /*верхнее меню*/
+display:inline-block;
+	position: absolute;
+    top: 17px;
+    left: 313px;
+	background: -moz-linear-gradient(#1f6685,#0d3458);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#1f6685), to(#0d3458));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f6685', endColorstr='#0d3458'); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+   	
+   -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+
+    border-radius: 3px; /* Уголки */
+	width: 495px;
+	height: 27px;
+	line-height: 27px;
+   }
+   
+
+	
+}   
+.avtoriz a {
+
+ display:inline-block;
+ list-style:none; 
+ color: #ffffff;
+ /*font-size: 12px;*/
+ font-family:  Arial;
+ text-decoration: none;
+ padding-top: 0px;
+ 
 }
+ .avtoriz a:hover {
+       color: #bfbfbf; 
+	   text-decoration: underline;	
+    }
+
+
+.login {
+	position: absolute;
+    top: 5px;
+    right: 358px;
+	line-height: 16px;
+	font-size: 12px;
+	border: 1px;
+	padding: 0px;
+}
+	.parol {
+		position: absolute;
+        top: 5px;
+        right: 237px;
+		font-size: 11px;
+		line-height: 10px;
+		border: 1px;
+	    padding: 0px;
+	}
+	
+	.vhod {
+	position: absolute;
+    top: 0px;
+    right: 195px;
+	padding-left: 6px;
+	letter-spacing: 0px;
+    font-size: 11px;
+}
+    
+
+
+.reg {
+	font-size: 11px;
+	position: absolute;
+    top: 0px;
+    right: 126px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.zab {
+	position: absolute;
+    top: 0px;
+    right: 5px;
+	letter-spacing: 1px;
+	font-size: 11px;
+	color: #fff;
+	text-decoration: none;
+}
+	
+	
+
+	
+.letter {
+		padding: 0 0 0 0;
+		margin: 0 0 0 6px;
+		width: 19px;
+        height: 22px;
+	}
+	
+	.karta {
+		
+		margin-left: 4px;
+		 width: 20px;
+         height: 22px;
+	}
+	
+	.home {
+		margin-left: 0px;
+		
+		 width: 20px;
+         height: 22px;
+	}
+	
+	
+	
+ .navi {
+	position: absolute;
+	
+ top: 19px;
+right: 6px;  /* Правая верхняя кнопка*/
+	
+	background-color: #fff;
+	
+ /*  -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);*/
+    border: 1px solid grey;
+    border-radius: 12px; /* Уголки */
+	width: 76px;
+	height: 19px;
+
+   }
+ 
+.navi a {
+
+ display:inline-block;
+
+}
+ .navi a:hover {
+	/* background-color: yellow;*/
+ }
+	
+	
+ 
+ .img1 {
+	position: absolute;
+    top: 22px;
+    left: 320px;	   /*Силуэт*/
+ }
+	
+.tel {
+	position: absolute;   /*Кружок с трубкой*/
+    top: 22px;
+    left: 7px;	 
+ }
+
+ .numbers {
+	
+	font-family: Arial, sans-serif;
+	font-size: 18px;     
+	color: grey;
+ }
+ .numbers1 {
+	position: absolute;
+    top: 22px;
+    left: 30px;	 
+ }
+ .numbers2 {
+	 position: absolute;
+    top: 23px;
+    left: 168px;	 
+ }
+.banner {
+	 position: absolute;
+	 width: 909px;
+     height: 237px;
+	 top: 54px;
+     left: 0px;
+ }
+
+ 
+
+ 
+ 
+ 
+ #menu3 {         
+    position: absolute; /* полоса*/
+
+	 top: 297px;
+     left: 0px;
+   }
+ .menu4{
+   position: absolute;   /*меню на полосе*/
+   top: 299px;
+    left: 123px;	 
+   /* border-radius: 12px; /* Уголки */
+/*	height: 29px;*/
+
+   }
+ .comp{
+	 padding-left: 4px;
+ }  
+ .opl {
+	  padding-left: 2px;
+ }
+ .dos {
+	 padding-left: 4px;
+ }
+ .art {
+	 padding-left: 3px;
+ }
+ .cont {
+	 padding-left: 3px;
+ }
+ 
+.menu4 a {
+    
+ display:inline-block;
+ text-align: center;
+ 
+ list-style:none; 
+ text-decoration: none;
+ vertical-align: middle;
+ font-family: "Lucida Sans Unicode";
+ font-size: 13px;
+ 
+ height: 31px;
+ line-height: 31px;
+ color: #b1bcc0;
+ padding-left: 20px;
+ padding-right: 12px;
+}
+
+ .menu4 a:hover {
+ background-color: #114165; 
+  border-radius: 15px;
+height: 27px;
+ text-align: center;
+ line-height: 27px;
+ list-style:none; 
+ text-decoration: none;
+ vertical-align: middle;
+ font-size: 13px;
+/* height: 31px;*/
+ color: #ffffff;
+ }
+
+ 
+ 
+ 
+	.kosh1 {
+	 position: absolute;
+	 top: 305px;
+     right: 205px;
+ }
+ 
+ 
+ .oo {
+	 position: absolute;
+	 top: 298px;
+     right: 15px;
+	 color: #0d5a8f;
+	 padding: 0px;
+	 line-height: 31px;
+	  font-family: Arial;
+	 font-size: 12px;
+ }
+ .ooo {
+	position: absolute;
+	 top: 305px;
+     right: 151px;
+	 color: #b1bcc0;
+	 
+	 line-height: 17px;
+	 font-family: Arial;
+	 font-size: 11px;
+ }
+.o {
+	position: absolute;
+	 top: 306px;
+     right: 142px;
+	 color: #0d5a8f;
+	 line-height: 17px;
+	 font-family: Arial;
+	 font-size: 13px;
+ }	
+ .oooo {
+	position: absolute;
+	 top: 305px;
+     right: 74px;
+	 color: #b1bcc0;
+	 
+	 line-height: 17px;
+	 font-family: Arial;
+	 font-size: 11px;
+ }	
+	 /*  ______________________ КОНЕЦ БЛОКА, КОТОРЫЙ КАК-ТО СДЕЛАН ___________________________________________*/
+	
+	#ffff {
+		
+	position: relative;
+	 top: -7px;
+     /*right: 0px;*/	
+		
+	margin: 0 auto;	
+	}
+.vertL{                                                              /*     Left Sidebar*/
+	background-color: #fff;
+    border-radius: 12px; /* Уголки */
+    border: 1px solid grey;
+	width: 179px;
+	height: 25px;
+	font-size: 14px;
+    line-height:25px;
+	font-family: "Lucida Sans Unicode";
+	color: #114165;
+    letter-spacing: -1px;
+	
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	
+	
+	
+   }
+ .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 0px 0px 0px 2px; /* Отступы вокруг картинки */
+   }
+	
+	.vertL1{
+	
+	background-color: #fff;
+    border-radius: 12px; /* Уголки */
+    border: 1px solid grey;
+	width: 148px;
+	height: 26px;
+	font-size: 12px;
+    line-height:28px;
+    letter-spacing: 1px;
+   }
+	
+	.vertL2{
+	
+	background-color: #fff;
+    border-radius: 12px; /* Уголки */
+    border: 1px solid grey;
+	width: 148px;
+	height: 26px;
+	font-size: 12px;
+    line-height:28px;
+    letter-spacing: 1px;
+   }
+   
+	.leftimg1 {
+    float:left; /* Выравнивание по левому краю */
+    margin: 0px 0px 0px 3px; /* Отступы вокруг картинки */
+   }
+   
+   .leftimg2 {
+    float:left; /* Выравнивание по левому краю */
+    margin: 0px 0px 0px 3px; /* Отступы вокруг картинки */
+   }
+   
+   .leftimg5 {
+    float:left; /* Выравнивание по левому краю */
+    margin: 0px 3px 0px 2px; /* Отступы вокруг картинки */
+   }
+   
+   
+.sb1 a{
+	text-decoration: none;
+	margin: 0px 0px 0px -2px;
+		   color: #465961;
+}
+   .sb1 {
+	   list-style: none;
+	   text-decoration: none;
+	   color: #465961;
+   }
+   
+   .sb1 ul li{
+	   
+	  display: block;
+      width: 130px;
+	  height: 19px;
+	  font-size: 12px;
+      line-height: 17px;
+     
+      text-decoration: none; 
+	  font-family: "Lucida Sans Unicode";
+	  letter-spacing: 0px;
+	  margin: 6px 0px 0px 37px;
+	  color: #465961;
+   }
+  
+   .sb1 ul li:hover {
+	  font-size: 14px;
+	  font-weight: bold;
+	  font-style: italic;
+    
+      text-decoration: underline;
+	  font-family: Arial;
+	  color: #465961;
+      
+   }	  
+   .sb2 a{
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+	color: #465961;
+}
+   .sb2 {
+	   list-style: none;
+	   text-decoration: none;
+	   color: #465961;
+   }
+   
+   .sb2 ul li{
+	   
+	  display: block;
+      width: 130px;
+	  height: 19px;
+	  font-size: 12px;
+      line-height: 17px;
+     
+      text-decoration: none; 
+	  font-family: "Lucida Sans Unicode";
+	  letter-spacing: 0px;
+	  margin: 6px 0px 0px 37px;
+   }
+  
+   .sb2 ul li:hover {
+	  font-size: 14px;
+	  font-weight: bold;
+      text-decoration: underline;	  
+	  font-family: Arial;
+	  font-weight: bold;
+	  font-style: italic;
+	  
+   }
+   
+   
+     .sb3 a{
+	text-decoration: none;
+	margin: 0px 0px 0px -2px;
+	color: #465961;
+}
+   .sb3 {
+	   list-style: none;
+	   text-decoration: none;
+	   color: #465961;
+   }
+   
+   .sb3 ul li{
+	   
+	  display: block;
+      width: 130px;
+	  height: 19px;
+	  font-size: 12px;
+      line-height: 17px;
+     
+      text-decoration: none; 
+	  font-family: "Lucida Sans Unicode";
+	  letter-spacing: 0px;
+	  margin: 6px 0px 0px 37px;
+	  color: #465961;
+   }
+  
+   .sb3 ul li:hover {
+	  font-size: 14px;
+	  font-weight: bold;
+      text-decoration: underline;	  
+	  font-family: Arial;
+	  font-weight: bold;
+	  font-style: italic;
+	  color: #465961;
+	  
+   }
+  
+	 /* _________________________  ШИНЫ ___________________________ */
+	
+.content {
+	
+	background-color: white;
+	border-radius: 3px; 
+	float: left;
+	width: 526px;
+	height: 628px;
+}
+
+.gradient {
+    background: #94a7b0; /* Для старых браузров */
+    background: linear-gradient(to top, #94a7b0, #e4e7e8);
+   }
+   
+  .sign {
+	  float: left; /* Выравнивание по краю */
+   
+    padding: 10px 19px;                                  /* Поля внутри блока */
+
+   background: transparent; /* Цвет фона */
+    text-align: center; /* Выравнивание по центру */
+	box-sizing: border-box;
+   }
+   
+  
+  
+
+ 
+  .whiteBlock{
+	   background-color: #ffffff;
+	   border-radius: 9px; /* Уголки */
+	   width: 137px;             /*размер белых квадратов*/
+	   height: 127px;
+	   border: 1px solid #b0b9bc;
+
+  }
+  
+  .Podpis1 {
+	  font-family: "Lucida Sans Unicode";
+	  font-size: 16px;
+	  color: #206988;
+	 /* font-weight: bold;*/
+	  line-height: 16px;
+  }
+  
+  .Podpis2 {
+	  font-family: "Lucida Sans Unicode";
+	  font-size: 12px;
+	  color: #1f2528;
+	  letter-spacing: 0.5px;
+	  line-height: 15px;
+  }
+ 
+.Price {
+	  font-family: Arial;
+	  font-size: 16px;
+	  color: #114165;
+	  font-weight: bold;
+	  font-style: italic;
+	  line-height: 18px;
+} 
+ /* _____________________________________ Конец сренднего блока*/  
+.sidebar1 {
+	/*background-color: yellow;*/
+	float: left;
+	width: 190px;
+	height: 628px;
+}
+.sidebar2 {
+	/*background-color: red;*/
+	float: right;
+	width: 191px;
+	height: 628px;
+}
+.gal {
+	margin-left: -19px; /* отступ чекбоксов от края сайдбара2*/
+	margin-top: 5px;    /* отступ чекбоксов друг от друга*/
+	
+}
+
+.check {
+	margin-left: -44px; /* отступ подписи от чекбокса*/
+	font-size: 14px;
+	
+}
+.vertR{                                                              /*     Left Sidebar*/
+	background-color: #fff;
+    border-radius: 12px; /* Уголки */
+    border: 1px solid grey;
+	width: 179px;
+	height: 25px;
+	font-size: 14px;
+    line-height:25px;
+	font-family: "Lucida Sans Unicode";
+	color: #114165;
+    letter-spacing: 0px;
+	
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	
+	
+	
+   }
+
+	.vertR1{
+	
+	background-color: #fff;
+    border-radius: 13px; /* Уголки */
+    border: 1px solid grey;
+	width: 136px;
+	height: 25px;
+	font-size: 12px;
+    line-height:28px;
+    letter-spacing: 1px;
+   margin: -3px 0px 0px 22px;}
+
+.vertR2{
+	
+	background-color: #fff;
+    border-radius: 12px; /* Уголки */
+    border: 1px solid grey;
+	width: 135px;
+	height: 26px;
+	font-size: 12px;
+    line-height:28px;
+    letter-spacing: 1px;
+   margin: 13px 0px 0px 22px;}
+
+   
+   
+div input {
+	height: 16px; 
+	width: 112px;
+	/*line-height: 11px;*/
+	
+}
+
+
+
+
+
+
+
+
+
+.new {
+	
+		width: 82px;
+        height: 26px;
+    background: -moz-linear-gradient(#0d3458, #1f6787);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0d3458), to(#1f6787));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d3458', endColorstr='#1f6787');
+    padding: 0px 0px;
+    color: #ffffff;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 1px solid #2e7ac4;
+	
+	margin-left: 32px; /* отступ кнопки от края сайдбара2*/
+	margin-top: 18px; 
+    font-size: 11px;	
+	letter-spacing: 1px;
+	
+	
+	
+	-webkit-box-shadow: 1px 2px 0px 1px rgba(0,0,0,0.3);
+-moz-box-shadow: 1px 2px 0px 1px rgba(0,0,0,0.3);
+box-shadow: 1px 2px 0px 1px rgba(0,0,0,0.3);
+   }
+
+   .new:focus  {
+		background: #1b5288;
+		-webkit-box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+-moz-box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+
+cursor: pointer;
+	}
+   
+ .new:hover  {
+		background: #1b5288;
+		-webkit-box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+-moz-box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+box-shadow: 0px 0px 4px 3px rgba(73,132,172,0.79);
+
+cursor: pointer;
+	}
+
+
+
+.container {
+	
+	width: 909px;
+	height: 628px;
+	margin: 0 auto;
+	
+}
+
+
+.clearfix:after{
+	content: " ";
+	clear: both;
+	display: block;
+	
+	
+}
+
+
+.firm {
+	clear: both;
+	/*position: relative;*/
+	background-color: #fff;
+/*display: inline-block;*/
+	margin: 0 auto;
+	width: 910px;
+	height: 90px;
+}
+
+
+.firm img{
+	padding-top: 37px;       /* положение фирм*/
+	padding-left: 117px;
+}
+	
+.footer {
+
+   background-color: #213a4d;
+	width: 910px;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+.f {
+	text-align:  center;
+	line-height: 19px;
+	padding-top: 6px;
+}
+
+ .f a:hover {
+color: #52abcb;	
+	
+}
+.f a:focus {
+color: #52abcb;	
+	
+}
+.footer a{
+
+	font-family: Arial;
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 auto;
+	
+}
+
+ 
+ .copy {
+	font-family: Arial;
+	font-size: 10px;
+	color: #7f4740;
+	text-align:  center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  /*nav*/
 
+nav{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5a6067+2,000000+36 */
+background: rgb(90,96,103); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(90,96,103,1) 2%, rgba(0,0,0,1) 36%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(90,96,103,1) 2%,rgba(0,0,0,1) 36%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(90,96,103,1) 2%,rgba(0,0,0,1) 36%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a6067', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+border-radius: 8px;
+height: 33px;
+
+}
 
  .amount{
  	float: right;
  }
 
+.sum{
+	color: #355a8c;
+	text-decoration: none;
+}
+.cost{
+	color: #b3babe;
+	text-decoration: none;
+}
 
  .content {
 	background-color: white;
@@ -81,100 +843,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206988', end
 	height: 628px;
 }
 
-.gradient {
-    background: #94a7b0; /* Для старых браузров */
-    background: linear-gradient(to top, #94a7b0, #e4e7e8);
-   }
-   
-  .sign {float: left; /* Выравнивание по правому краю */
-   /* border: 2px solid #333; /* Параметры рамки */
-    padding: 10px 17px;                                  /* Поля внутри блока */
-    margin: 0px 0px 0px 0px;  /* Отступы вокруг */
-   background: transparent; /* Цвет фона */
-    text-align: center; /* Выравнивание по центру */
-   }
-  .main {
-	/*  background-color: #EE82EE;*/
-	  width: 526px;
-	  height: 628px;
-	  margin: 0 auto;
-  }
-  .whiteBlock {
-	  background-color: #ffffff;
-	   border-radius: 7px; /* Уголки */
-	   width: 139px;             /*размер белых квадратов*/
-	  height: 123px;
-	  border: 1px solid #b0b9bc;
-	  padding-top: 5px;
-  }
+.carte{
+	text-decoration: none;
+	color: #b3babe;
+	padding: 10px 15px 10px 15px;
+	border-radius: 8px;
 
-
-  .Podpis1{
-  	 
-  	 color: #426986;
-  	 font-size:15px;
-  	 font-weight: 500;
-
-   
-
-  }
-
-  .price{
-
-  	 color: #2a4364;
-  	 font-size:16px;
-  	 font-weight: 600;
-
-  }
-   
-.fon {
-
-	width: 998; /* ширина трех блоков */
-    float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
-
-	}
-
-   	.leftColumn {
-
-	
-    float: left;
-    height: auto;
-    min-height: 300px;
-    margin: 0 0 30px 0;
 }
-
-
-.side-menu-title {
-    height: 25px;
-    width: 156px;
-    padding: 6px 0 0 30px;
-    color: #114165;
-    font: 12px/13px
-}
-
-.side-menu-item {
-    display: block;
-    width: 130px;
-    height: 14px;
-    padding: 1px 0 0 10px;
-    margin: 10px 0 0 30px;
-    color: #465961;
-    background: url(img/marker.png) no-repeat 0 4px;
-    font-weight: normal;
-    }
-
-
-	.centerColumn {
-
-
-	float: left;
-	margin: auto;
-
-
-	}
-
-	.rightColumn { 
-	float:right;
-	height: auto;
-
-	}
