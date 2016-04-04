@@ -27,6 +27,7 @@ body{
 	position: relative;
 	background: #fff; /*#FFE4E1;*/
 	width: 909px;
+	height: 500px;
 
 	margin: 0 auto;
 }
@@ -43,7 +44,7 @@ body{
 .avtoriz{                        /*верхнее меню*/
 display:inline-block;
 	position: absolute;
-    top: 17px;
+    
     left: 313px;
 	background: -moz-linear-gradient(#1f6685,#0d3458);
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#1f6685), to(#0d3458));
@@ -158,10 +159,7 @@ box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
 	
 	
  .navi {
-	position: absolute;
-	
- top: 19px;
-right: 6px;  /* Правая верхняя кнопка*/
+	float: right;
 	
 	background-color: #fff;
 	
@@ -206,12 +204,12 @@ box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);*/
  }
  .numbers1 {
 	position: absolute;
-    top: 22px;
+ 
     left: 30px;	 
  }
  .numbers2 {
 	 position: absolute;
-    top: 23px;
+
     left: 168px;	 
  }
 .banner {
@@ -725,7 +723,7 @@ cursor: pointer;
 
 
 .clearfix:after{
-	content: " ";
+
 	clear: both;
 	display: block;
 	
