@@ -27,9 +27,13 @@ body{
 	position: relative;
 	background: #fff; /*#FFE4E1;*/
 	width: 909px;
-	height: 500px;
+	
 
 	margin: 0 auto;
+}
+
+.square{
+	height: 200px;
 }
 
 
