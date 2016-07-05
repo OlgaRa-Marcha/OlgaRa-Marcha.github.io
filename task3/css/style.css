@@ -33,6 +33,11 @@ body {
     border-right: 1px solid transparent;
 }
 
+.menu-top a {
+        color: white;
+    }
+
+
 .menu-top li:hover {
     background: linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(43, 43, 43, 1) 100%);
     border-left: 1px solid #848484;
@@ -70,19 +75,37 @@ p {
     color: #656565;
 }
 
+.menu-sidebar a {
+    color: #656565;
+}
+
+
 .menu-sidebar li:first-child {
     border-top: 1px solid #c9c9c9;
 }
 
 .menu-sidebar li:hover {
     background: #f9f9f9;
+        padding-left: 30px;
+    }
+
+.menu-sidebar a:hover {
+
     color: #2c2c2c;
-    padding-left: 30px;
+
+}
+
+.menu-sidebar a:hover {
+    color: #2c2c2c;
 }
 
 .footer {
     clear: both;
     background: #e2e2e2;
+    color: #2c2c2c;
+}
+
+.footer a {
     color: #2c2c2c;
 }
 
@@ -96,7 +119,7 @@ p {
     padding: 10px 40px;
 }
 
-.menu-bottom li:hover {
+.menu-bottom a:hover {
     text-decoration: underline;
 }
 
