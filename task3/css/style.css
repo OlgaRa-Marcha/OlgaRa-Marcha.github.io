@@ -9,6 +9,10 @@ body {
     font-size: 14px;
 }
 
+a{
+   text-decoration: none;
+}
+
 .wrapper {
     width: 970px;
     margin: 0 auto;
