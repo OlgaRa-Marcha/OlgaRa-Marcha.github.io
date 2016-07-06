@@ -32,13 +32,16 @@ a{
     display: inline-block;
     color: white;
     text-shadow: 1px 1px 1px gray;
-    padding: 10px 40px;
+
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
 }
 
 .menu-top a {
-        color: white;
+     color: white;
+     padding: 10px 40px;    
+     display:block;
+
     }
 
 
