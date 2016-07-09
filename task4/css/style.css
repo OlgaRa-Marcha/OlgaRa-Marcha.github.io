@@ -1,124 +1,228 @@
-*{
+
+* {
 	margin: 0;
 	padding: 0;
-	font-family: tahoma;
+	
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, .center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, .embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, .ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
-body{
-	background-image: url(../img/1.jpg);
-	height: 1000px;
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+
+		background-image: url(../img/1.jpg);
+		font-family: tahoma;
+
 }
 
-.box{
-	background: #FFFFFF;
+.parent {
+
+	background: #fff;
 	margin: auto;
 	width: 1000px;
+	height: 700px;
 	box-shadow: 0 0 2px 2px rgba(105, 105, 105, 1);
 
+
+
+	
 }
-
-
-.contacts{
-	float: right;
-	margin-right: 30px;
-	color: #4f89a4;
-	position: relative;
-}
-
-.contries{
-	float: right;
-    clear: right;
-    margin-top: 35px;
-}
-
-.photo {
-	width: 70px;
-	float: right;
-	font-size: 10px;
-	color: #4f89a4;
-	position: relative; 
-	padding: auto 0;
-}
-
 .logo{
-     float: left;
+  margin-left: 20px;
+  float: left;
+  margin-top: 9px;
+	
+}
+
+.cont{		
+	color: #128aa7;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
 
 }
 
-.clearfix:after {
-	content:'';
+
+.main{
+    position: absolute;
+	top:175px;
+	border-top: 1px solid #138aa7;
+	border-bottom: 1px solid #138aa7;
+	height: 237px;
+
+	
+}
+
+
+.main:after{
+	content:" ";
 	clear: both;
 	display: block;
 }
-li{
-	list-style: none;
-	float: left;
-	display: block;
-	padding: 10px 29.6px;
-	background: #373737;
+
+.photo1 {
+
+	    float: left; /* задаем обтекание */
+	    margin:0 auto; /* для красоты */
+	    display:inline; /* для IE6, чтоб отступ слева не удвоился */
+		height: 60px;
+		color: #128aa7;
+	}
+
+.nation{
+	color: #128aa7;
+}
+
+.description{
+	    overflow:hidden;
+		font-size: 10px;
+		width: 54px;
+		float:left;
+	}
+	
+.contr {
+	display: inline-block;
+	width: 54px;
+	height: 56px;
+    font-size: 10px;
+    text-align: center;
+}
+  li {
+    display: inline-block;
+  }
+#country {
+	 float: right; 
+	 margin:0 auto; 
+	 margin-top: 15px;
+	 margin-right: 20px;
+	 clear: right;
+
 
 }
 
-ul{
-	color: #FFFFFF;
-	list-style: none;
-	padding: auto;
-	margin: auto;
-	height: 100%;
+#country li a:hover {
+     
+	color: #FF0000;
+	
+	}
+
+
+#menu ul, li {
+        margin:0;
+        padding:0;
+        list-style-type:none; 
+  
+    }
+	
+
+    #menu {
+        display:block;
+        position:absolute;
+        top: 414px;
+		width: 1000px;
+		z-index: 3;	
+        background: #323232;
+		line-height: 40px;
+		box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+		border-top: 1px solid #cacbcb;
+		border-bottom: 1px solid #000;
+
+
+
+ 
+    }
+
+    #menu li {
+        display:inline-block;
+        height:40px;
+        position:relative;
+
+    }
+     
+	 #menu li a{
+		 color: #fff;
+		 text-decoration: none;
+
+		padding-left: 30px;
+		 padding-right: 35px;
+		
+	 }
+	#menu li ul li{
+		 width: 100%;	
+	 } 
+
+    #menu li ul {
+        position:absolute;
+		color: #fff;
+		background: #323232;
+        top:40px;
+        display:none;  
+        text-decoration: none;
+-webkit-box-shadow: 10px 10px 5px -4px rgba(7,7,8,1);
+-moz-box-shadow: 10px 10px 5px -4px rgba(7,7,8,1);
+box-shadow: 10px 10px 5px -4px rgba(7,7,8,1);
+		
+    }
+     
+
+    #menu li:hover ul {
+        display:block; 
+		
+    }
+
+.tri {
+	width: 10px;
+	height: 10px;
 }
 
-	.menu{
-	color: #FFFFFF;
-	text-decoration: none;
-	padding-right: 4.5px;
-
-}
-
-.nav{
-list-style: none;
-}
-
-.nav li {
-cursor: pointer;
-background: #373737;
-
-}
-
-.nav li ul {
-display: none; 
-position: absolute; 
-top: 20px; 
-background: #373737;
-}
-
-.nav li ul li a {
-float: none;
-display: block;
-background: #373737;
-color: #FFFFFF;
-}
-
-.nav li:hover ul {
-display: block; 
-} 
-
-
-.case{
-	position: relative;
-}
-
-
-hr{
-	border-top: 2px solid #c6c9cd;
- 	border-left: none;
-	border-right: none;}
-
-
-
+#menu li:hover {
+     background: #778899;
+	color: #ffffff;
+	
+	}
 
 .fon {
+	position: absolute;
+	top:450px;
 
-	width: 998; /* ширина трех блоков */
+	width: 998px; /* ширина трех блоков */
     background: url(../img/4.jpg) repeat-y; /* фоновая картинка. повторяется по вертикали */
     float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
 	border: 1px solid #c6c9cd;
@@ -127,10 +231,14 @@ hr{
 
 	.leftColumn {
 
-	width: 200px;
+	width: 20%;
 
 	float: left;
+	height: auto;
+	margin-left: 5px;
 	background: #ecedef;
+		color: #424c43;
+
 	
 	
 
@@ -138,21 +246,33 @@ hr{
 
 	.centerColumn {
 
-	width: 600px;
+	width: 60%;
 
 	float: left;
+
 
 
 	}
 
 	.rightColumn {
 
-	width: 200px;
+	width: 20%;
 
 	float:right;
 	background: #ecedef;
 	height: auto;
+	color: #424c43;
 	}
+
+
+.contents{
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	color: #424c43;
+	font-weight: bold;
+}
+
 
 
 
