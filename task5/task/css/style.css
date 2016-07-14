@@ -19,26 +19,26 @@
 
 
 body{
-	background: #ffffff;
-}
-
-
-.box{
-	width:1200px;
-	height: 1000px;
+		margin-top: 35px;
 	margin: auto;
 	background-image: url(../img/2.jpg);
+	background-size: cover;
 }
+
+
+
 
 .container{
 	height: 34px;
-	background: #074783;
+	width: 100%;
+	background-image: url(../img/5.png);
 }
 
 li{
 	list-style: none;
 	float: right;
 	padding:7px 15px ;
+
 
 
 }
@@ -56,6 +56,13 @@ ul{
 .office{
 	color: #ffffff;
 	text-decoration: none;
+
+}
+
+
+.office.:hover{
+	background: #4eabda;
+	color: #ffffff;;
 
 }
 
@@ -143,6 +150,7 @@ margin-bottom: 20px;
      background: #1b5288;
      border: 1px solid #29B0D9; 
      color: #ffffff;
+     box-shadow: 0 0 11px #508cb4;
 
 
    }
@@ -153,17 +161,10 @@ margin-bottom: 20px;
 	color: #ffffff;
 	border: none;
 	font-size: 14px;
-
-
-	
-}.button{
-	background: #3399cc;
-	color: #efefef;
-	border: none;
-	padding: 10px 20px;
-	margin-bottom: 20px;
-
 }
+
+
+
 
 .knob{
 	margin-bottom: 20px;
@@ -184,4 +185,50 @@ div{text-align:center}
 
 .emphasis{
 	text-decoration: underline;
+}
+
+
+.checkbox-container {
+    display: block;
+    width: 276px;
+    margin: 0 auto;
+    height: 35px;
+}
+
+.checkbox-container label {
+    display: inline-block;
+    padding-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.checkbox-container input {
+    display: inline-block;
+}
+
+
+
+.knob button {
+    display: block;
+    width: 151px;
+   	margin-top: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 35px;
+    color: #FFFFFF;
+    border: 1px #58a2dd;
+    border-radius: 5px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4faddb+0,2e7ac4+100 */
+background: #4faddb; /* Old browsers */
+background: -moz-linear-gradient(top, #4faddb 0%, #2e7ac4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4faddb 0%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4faddb 0%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4faddb', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
+}
+
+
+                              
+.knob{
+	margin-top: 15px;
 }
